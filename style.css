@@ -1,0 +1,53 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* shared common style */
+.common_button{
+color: #FFF;
+font-family: Lato;
+border-radius: 10px;
+background: #E55473;
+border: none;
+padding: 20px 43px;
+font-size: 20px;
+}
+
+.header_container {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
+}
+
+.header_left{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.header_left h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 510px;
+    height: 210px;
+}
+
+.header_left p{
+    margin-top: 32px;
+    width: 600px;
+    
+}
+.header_right img {
+    width: 410px;
+    height: 550px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: -4px;
+}
