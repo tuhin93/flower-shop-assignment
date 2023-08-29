@@ -14,7 +14,7 @@ body {
     background: #E55473;
     border: none;
     padding: 20px 43px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header_container {
@@ -168,37 +168,42 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
 
-.support1{
+.support1 {
     align-items: center;
     justify-content: center;
 
 }
-.support1 p{
+
+.support1 p {
     margin-bottom: 80px;
 }
-.support1 img{
-    margin-top:86px;
-    height: 88px;
-    width: 88px;
-}
-.support2 p{
-    margin-bottom: 80px;
-}
-.support2 img{
-    margin-top:86px;
+
+.support1 img {
+    margin-top: 86px;
     height: 88px;
     width: 88px;
 }
 
-.support3 p{
-margin-bottom: 80px;    
+.support2 p {
+    margin-bottom: 80px;
+}
+
+.support2 img {
+    margin-top: 86px;
+    height: 88px;
+    width: 88px;
+}
+
+.support3 p {
+    margin-bottom: 80px;
 
 }
-.support3 img{
-    margin-top:86px;
+
+.support3 img {
+    margin-top: 86px;
     height: 88px;
     width: 88px;
 }
@@ -210,14 +215,14 @@ margin-bottom: 80px;
     height: 530px;
 }
 
-.discount_text{
+.discount_text {
     width: 550px;
     text-align: center;
     margin-top: 100px;
-    
+
 }
 
-#discount_section .discount_text>h3{
+#discount_section .discount_text>h3 {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -225,8 +230,104 @@ margin-bottom: 80px;
     font-weight: 800;
     line-height: normal;
 }
+
 #discount_section>.discount_img>img {
     height: 335px;
     width: 280px;
     margin-top: 80px;
+}
+
+.footer_up {
+    background-color: #FFF;
+
+}
+
+.social {}
+
+.social h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.social p {
+    color: #27272799;
+    font-size: 16px;
+    text-align: center;
+    width: 641px;
+    margin: 0 auto;
+    margin-top: ;
+}
+
+.footer_flower {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+.footer_flower .flower_1 img {}
+
+.latest_deal {
+    background-image: url('contents/Rectangle\ 99.png');
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.latest_deal h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 35px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.latest_deal p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.latest_deal>form {
+    align-items: center;
+}
+
+.footer {
+    background: #111010;
+    height: 350px;
+    margin-top: 0px;
+
+}
+
+.footer h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: Lato;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 580px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.copyright p{
+color: #FFFFFF66;
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
