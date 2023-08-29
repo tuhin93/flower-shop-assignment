@@ -121,6 +121,7 @@ body {
     height: 380px;
 
 }
+
 .flower_2 p {
     color: #272727;
     text-align: center;
@@ -141,6 +142,7 @@ body {
     width: 280;
     height: 380px;
 }
+
 .flower_3 p {
     color: #272727;
     text-align: center;
@@ -149,4 +151,54 @@ body {
     font-weight: 600;
     line-height: 25px;
     text-decoration-line: underline;
+}
+
+.support_section {
+    justify-content: space-around;
+    background-color: #2727270D;
+    width: 1174px;
+    display: flex;
+    margin: 130px auto;
+}
+
+.support_section p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.support1{
+    align-items: center;
+    justify-content: center;
+
+}
+.support1 p{
+    margin-bottom: 80px;
+}
+.support1 img{
+    margin-top:86px;
+    height: 88px;
+    width: 88px;
+}
+.support2 p{
+    margin-bottom: 80px;
+}
+.support2 img{
+    margin-top:86px;
+    height: 88px;
+    width: 88px;
+}
+
+.support3 p{
+margin-bottom: 80px;    
+
+}
+.support3 img{
+    margin-top:86px;
+    height: 88px;
+    width: 88px;
 }
