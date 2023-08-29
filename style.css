@@ -55,7 +55,7 @@
 }
 
 .main_section {
-    /* width: 400px; */
+    width: 400px;
     margin: 0 auto;
     margin-top: 80px;
 }
@@ -85,6 +85,7 @@
 .main_flower {
     display: flex;
     justify-content: space-around;
+    gap: 24px;
 
 
 }
