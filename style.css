@@ -202,3 +202,31 @@ margin-bottom: 80px;
     height: 88px;
     width: 88px;
 }
+
+#discount_section {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    height: 530px;
+}
+
+.discount_text{
+    width: 550px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+#discount_section .discount_text>h3{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#discount_section>.discount_img>img {
+    height: 335px;
+    width: 280px;
+    margin-top: 80px;
+}
