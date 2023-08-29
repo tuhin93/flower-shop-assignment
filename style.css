@@ -14,7 +14,7 @@
     background: #E55473;
     border: none;
     padding: 20px 43px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -242,9 +242,12 @@
 .footer_up {
     background-color: #FFF;
 
+
 }
 
-.social {}
+.social {
+    
+}
 
 .social h2 {
     color: #272727;
@@ -254,6 +257,7 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 35px;
 }
 
 .social p {
@@ -262,14 +266,14 @@
     text-align: center;
     width: 641px;
     margin: 0 auto;
-    margin-top: ;
+
 }
 
 .footer_flower {
     display: flex;
     margin-top: 40px;
     gap: 20px;
-
+    margin-bottom: 50px;
 }
 
 .latest_deal input[type="text"] {
