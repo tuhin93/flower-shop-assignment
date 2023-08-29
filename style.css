@@ -36,7 +36,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    width: 510px;
+    width: 500px;
     height: 210px;
 }
 
@@ -346,8 +346,29 @@ line-height: normal;
     justify-content: space-between;
 }
 
-.nav{
-display: flex;
+nav ul{
+    display: flex;
+    background-color: #E554731A;
+    text-align: right;
 }
-.nav ul li{}
-.nav ul li a{}
+nav>ul>li{
+    list-style-type: none;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    color: black;
+    
+}
+
+nav ul li a {
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: #E55473;
+    color: white;
+    border-radius: 10px;
+}
