@@ -1,4 +1,4 @@
-body {
+* {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -15,11 +15,12 @@ body {
     border: none;
     padding: 20px 43px;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 .header_container {
     display: flex;
-    background-color: rgba(229, 84, 115, 0.10);
+    background-color: #E554731A;
     justify-content: space-between;
 }
 
@@ -270,8 +271,16 @@ body {
 
 }
 
-.footer_flower .flower_1 img {}
-
+.latest_deal input[type="text"] {
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 66px;
+    font-family: Lato;
+    margin-left: 140px;
+}
 .latest_deal {
     background-image: url('contents/Rectangle\ 99.png');
     background-repeat: no-repeat;
@@ -331,3 +340,14 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+display: flex;
+}
+.nav ul li{}
+.nav ul li a{}
