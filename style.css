@@ -86,8 +86,6 @@
     display: flex;
     justify-content: space-around;
     gap: 24px;
-
-
 }
 
 .flower_1 {
@@ -162,6 +160,7 @@
     display: flex;
     margin: 130px auto;
 }
+
 
 .support_section p {
     color: rgba(39, 39, 39, 0.80);
@@ -271,9 +270,11 @@
 
 .footer_flower {
     display: flex;
+    align-items: center;
     margin-top: 40px;
     gap: 20px;
     margin-bottom: 50px;
+    justify-content: center;
 }
 
 .latest_deal input[type="text"] {
