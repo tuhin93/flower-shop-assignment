@@ -212,7 +212,7 @@
 #discount_section {
     display: flex;
     justify-content: space-around;
-    background: rgba(229, 84, 115, 0.05);
+    background: #E554730D;
     height: 530px;
 }
 
